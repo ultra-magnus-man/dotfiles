@@ -36,18 +36,18 @@ brew 'git'
 brew 'jq'
 brew 'less'
 brew 'mise'
-brew 'moreutils'
+#brew 'moreutils'
 brew 'ncdu'
 brew 'powerlevel10k'
 brew 'prettyping'
 brew 'ripgrep'
-brew 'shellcheck'
+#brew 'shellcheck'
 brew 'syncthing'
 brew 'tldr'
 brew 'vim'
 brew 'watch'
 brew 'wget'
-brew 'wifi-password'
+#brew 'wifi-password'
 brew 'zsh'
 
 # ----------------------------------------------------------------------------------------------------------
@@ -59,28 +59,29 @@ mas 'iBar-Menubar icon control tool', id: 6443843900
 cask 'aldente'
 cask 'appcleaner'
 cask 'arc'
-cask 'brave-browser'
+#cask 'brave-browser'
 cask 'clocker'
 # cask 'cloudflare-warp'
-cask 'firefox@nightly' #, greedy: true
+#cask 'firefox@nightly' #, greedy: true
 cask 'font-meslo-lg-nerd-font'
 cask 'iterm2'
 cask 'itsycal'
-cask 'keepassxc@beta'
+#cask 'keepassxc@beta'
 cask 'keepingyouawake'
 cask 'keybase'
-cask 'libreoffice'
+#cask 'libreoffice'
 cask 'microsoft-remote-desktop'
 cask 'monolingual'
-cask 'notunes'
-cask 'ollama', restart_service: :changed
+#cask 'notunes'
+#cask 'ollama', restart_service: :changed
 cask 'orbstack'
-cask 'protonvpn'
+#cask 'protonvpn'
 cask 'raycast'
-cask 'silicon' if is_arm
+#cask 'silicon' if is_arm
 cask 'stats'
 cask 'the-unarchiver'
-cask 'vscodium@insiders'   # TODO: Doesn't handle 'Remote Containers' and GH-based auto-syncing when comparing to VSCode
+#cask 'vscodium@insiders'   # TODO: Doesn't handle 'Remote Containers' and GH-based auto-syncing when comparing to VSCode
+cask 'visual-studio-code'
 cask 'zoom'
 
 # VSCode extensions
